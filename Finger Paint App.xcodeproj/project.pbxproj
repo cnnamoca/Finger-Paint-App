@@ -15,6 +15,8 @@
 		E604531E1F915A0300D95136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E604531D1F915A0300D95136 /* main.m */; };
 		E60453281F915A0400D95136 /* Finger_Paint_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E60453271F915A0400D95136 /* Finger_Paint_AppTests.m */; };
 		E60453331F915A0400D95136 /* Finger_Paint_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E60453321F915A0400D95136 /* Finger_Paint_AppUITests.m */; };
+		E60453421F915B3C00D95136 /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = E60453411F915B3C00D95136 /* LineSegment.m */; };
+		E60453451F915D3200D95136 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E60453441F915D3200D95136 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E604532E1F915A0400D95136 /* Finger Paint AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finger Paint AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60453321F915A0400D95136 /* Finger_Paint_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finger_Paint_AppUITests.m; sourceTree = "<group>"; };
 		E60453341F915A0400D95136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60453401F915B3C00D95136 /* LineSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
+		E60453411F915B3C00D95136 /* LineSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineSegment.m; sourceTree = "<group>"; };
+		E60453431F915D3200D95136 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		E60453441F915D3200D95136 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				E604530F1F915A0300D95136 /* AppDelegate.m */,
 				E60453111F915A0300D95136 /* ViewController.h */,
 				E60453121F915A0300D95136 /* ViewController.m */,
+				E60453431F915D3200D95136 /* DrawView.h */,
+				E60453441F915D3200D95136 /* DrawView.m */,
+				E60453401F915B3C00D95136 /* LineSegment.h */,
+				E60453411F915B3C00D95136 /* LineSegment.m */,
 				E60453141F915A0300D95136 /* Main.storyboard */,
 				E60453171F915A0300D95136 /* Assets.xcassets */,
 				E60453191F915A0300D95136 /* LaunchScreen.storyboard */,
@@ -268,6 +278,8 @@
 				E60453131F915A0300D95136 /* ViewController.m in Sources */,
 				E604531E1F915A0300D95136 /* main.m in Sources */,
 				E60453101F915A0300D95136 /* AppDelegate.m in Sources */,
+				E60453421F915B3C00D95136 /* LineSegment.m in Sources */,
+				E60453451F915D3200D95136 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
